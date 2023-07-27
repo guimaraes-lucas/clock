@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    height: 100vh;
+
+    background: linear-gradient(120deg, #091279, #a900ff);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.weather {
+    height: 600px;
+    width: 600px;
+
+    box-shadow: 2px 5px 5px;
+    border-radius: 10px;
+    padding: 20px;
+    background: linear-gradient(45deg, #310979, #a900ff);
+}
+
+.weather input {
+    width: calc(100% - 70px);
+
+    border: none;
+    outline: none;
+
+    padding: 10px;
+    border-radius: 25px;
+
+    font-size: 20px;
+
+    background-color: rgba(0, 0, 0, 0.3);
+    color:#ffffff;
+}
+
+.weather input::placeholder {
+    color: #ffffff;
+}
+
+.weather button {
+    width: 60px;
+
+    border: none;
+    outline: none;
+
+    padding: 1px;
+    border-radius: 50px;
+    float: right;
+
+    cursor: pointer;
+
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+.weather button img {
+    width: 40px;
+}
+
+.tempo {
+    margin-top: 100px;
+}
+
+.tempo h2 {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.tempo .temperatura {
+    color: #ffffff;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.clima {
+    display: flex;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.clima p {
+    color: #ffffff;
+    margin-left: 20px;
+
+    font-size: 20px;
+}
+
+.tempo .umidade {
+    color: #ffffff;
+    margin-top: 90px;
+
+    font-size: 25px;
+}
+
+.clock {
+    width: 200px;
+    height: 600px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    box-shadow: 2px 5px 5px;
+    border-radius: 10px;
+
+    background: linear-gradient(-45deg, #310979, #a900ff);
+}
+
+.clock div {
+    width: 150px;
+    height: 150px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    background-color: rgba(10, 10, 10, 0.7);
+    color: #fbfafb;
+
+    border-radius: 8px;
+}
+
+.timer {
+    font-size: 60px;
+}
+
+.identificador {
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
