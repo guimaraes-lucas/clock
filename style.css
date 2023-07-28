@@ -30,7 +30,7 @@ body {
     box-shadow: 2px 5px 5px;
     border-radius: 10px;
     padding: 20px;
-    background: linear-gradient(120deg, #310979, #a900ff);
+    background: #282829;
 }
 
 .weather input {
@@ -121,8 +121,9 @@ body {
 
     box-shadow: 2px 5px 5px;
     border-radius: 10px;
+    opacity: 0.8;
 
-    background: linear-gradient(-45deg, #310979, #a900ff);
+    background: #282829;
 }
 
 .clock div {
