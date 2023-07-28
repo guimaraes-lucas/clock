@@ -11,21 +11,26 @@
 body {
     height: 100vh;
 
-    background: linear-gradient(120deg, #091279, #a900ff);
+    background: url(https://images.unsplash.com/photo-1487621167305-5d248087c724?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80) no-repeat center / cover;
 
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
 }
 
+/* Tempo */
+
 .weather {
-    height: 600px;
+    height: 400px;
     width: 600px;
+
+    opacity: 0.7;
 
     box-shadow: 2px 5px 5px;
     border-radius: 10px;
     padding: 20px;
-    background: linear-gradient(45deg, #310979, #a900ff);
+    background: linear-gradient(120deg, #310979, #a900ff);
 }
 
 .weather input {
@@ -68,7 +73,7 @@ body {
 }
 
 .tempo {
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 .tempo h2 {
@@ -85,7 +90,7 @@ body {
 .clima {
     display: flex;
     align-items: center;
-    margin-top: 90px;
+    margin-top: 40px;
 }
 
 .clima p {
@@ -93,21 +98,24 @@ body {
     margin-left: 20px;
 
     font-size: 20px;
+
+    text-transform: capitalize;
 }
 
 .tempo .umidade {
     color: #ffffff;
-    margin-top: 90px;
+    margin-top: 30px;
 
     font-size: 25px;
 }
 
+/* Relógio */
+
 .clock {
-    width: 200px;
-    height: 600px;
+    width: 600px;
+    height: 200px;
 
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: space-around;
 
